@@ -10,7 +10,10 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title:
         Text(
-          'New Page'
+          'New Page',
+              style: TextStyle(
+            fontWeight: FontWeight.bold
+        ),
         ),
       ),
     );
