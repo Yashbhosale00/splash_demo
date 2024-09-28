@@ -13,7 +13,6 @@ class FirstScreen extends StatelessWidget {
           'New Page',
               style: TextStyle(
             fontWeight: FontWeight.bold
-                color:Colors.yellow,
         ),
         ),
       ),
