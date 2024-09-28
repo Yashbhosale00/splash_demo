@@ -64,6 +64,7 @@ class _Splash2State extends State<Splash2> {
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
+                color: Colors.yellowAccent
               ),
             ),
           ],
