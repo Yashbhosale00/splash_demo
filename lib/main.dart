@@ -59,7 +59,13 @@ class _Splash2State extends State<Splash2> {
             ),
             SizedBox(height: 10),
             // Loading text
-            Text("Loading"),
+            Text(
+                "Loading",
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
