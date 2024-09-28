@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -28,7 +27,6 @@ class _Splash2State extends State<Splash2> {
   @override
   void initState() {
     super.initState();
-    // Timer to navigate to the next screen after 6 seconds
     Timer(Duration(seconds: 6), () {
       Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (context) => SecondScreen()));
