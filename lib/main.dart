@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:splash/firstscrren.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,6 +20,8 @@ class MyApp extends StatelessWidget {
 }
 
 class Splash2 extends StatefulWidget {
+  const Splash2({super.key});
+
   @override
   _Splash2State createState() => _Splash2State();
 }
@@ -41,13 +44,11 @@ class _Splash2State extends State<Splash2> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // Displaying the image
             Image.network(
-              'https://scontent.fpnq5-1.fna.fbcdn.net/v/t39.30808-6/293147548_118217720926695_3728183890302029094_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=YsvsyyWvYSwQ7kNvgG8Lfck&_nc_ht=scontent.fpnq5-1.fna&oh=00_AYC6BV0n1OMju4jeJb6A4iCnDXpqmdda8KV8zjLqWwyPDw&oe=66C8D4ED',
+              'https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg',
               height: 100.0,
             ),
             const SizedBox(height: 20),
-            // Displaying the title text
             const Text(
               'Dchronicles International Private Limited PVT.LTD',
               style: TextStyle(fontWeight: FontWeight.bold),
@@ -64,8 +65,20 @@ class _Splash2State extends State<Splash2> {
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
-                color: Colors.yellowAccent
+                color: Colors.blueAccent
               ),
+            ),
+            ElevatedButton(
+                onPressed: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context)=> const FirstScreen(),
+                      ),
+                  );
+                },
+                child: Text(
+                  'SUBMIT'
+                ),
             ),
           ],
         ),
