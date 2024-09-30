@@ -11,8 +11,10 @@ class FirstScreen extends StatelessWidget {
         title:
         Text(
           'New Page',
+              semanticsLabel: 'new page 2',
               style: TextStyle(
-            fontWeight: FontWeight.bold
+            fontWeight: FontWeight.bold,
+                fontSize: 16,
         ),
         ),
       ),
