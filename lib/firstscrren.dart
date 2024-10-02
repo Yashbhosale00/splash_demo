@@ -9,7 +9,7 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title:
-        Text(
+        const Text(
           'New Page',
               semanticsLabel: 'new page 2',
               style: TextStyle(
@@ -19,12 +19,10 @@ class FirstScreen extends StatelessWidget {
         ),
       ),
       body:
-      Container(
-        child:Center(
-        child: Text(
-          'Bhosale'
-        ),
-        ),
+      const Center(
+       child: Text(
+        'Bhosale'
+      ),
       ),
     );
   }

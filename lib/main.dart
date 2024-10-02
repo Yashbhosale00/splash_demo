@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:splash/firstscrren.dart';
+import 'firstscrren.dart';
 
 void main() {
   runApp(MyApp());
