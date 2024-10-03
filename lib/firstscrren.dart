@@ -11,7 +11,7 @@ class FirstScreen extends StatelessWidget {
         title:
         const Text(
           'New Page',
-              semanticsLabel: 'new page 2',
+              semanticsLabel: 'new page edited 2',
               style: TextStyle(
             fontWeight: FontWeight.bold,
                 fontSize: 16,
@@ -21,7 +21,11 @@ class FirstScreen extends StatelessWidget {
       body:
       const Center(
        child: Text(
-        'Bhosale'
+        'Bhosale',
+         style: TextStyle(
+           fontSize: 15,
+           fontWeight: FontWeight.bold,
+         ),
       ),
       ),
     );
