@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import 'firstscrren.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: Splash2(),
+      home: const Splash2(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -32,7 +34,7 @@ class _Splash2State extends State<Splash2> {
     super.initState();
     Timer(const Duration(seconds: 6), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => SecondScreen()));
+          MaterialPageRoute(builder: (context) => const SecondScreen()));
     });
   }
 
@@ -58,9 +60,9 @@ class _Splash2State extends State<Splash2> {
             const CircularProgressIndicator(
               valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             // Loading text
-            Text(
+            const Text(
                 "Loading",
               style: TextStyle(
                 fontSize: 15,
@@ -76,7 +78,7 @@ class _Splash2State extends State<Splash2> {
                       ),
                   );
                 },
-                child: Text(
+                child: const Text(
                   'SUBMIT'
                 ),
             ),

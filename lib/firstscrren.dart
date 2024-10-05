@@ -15,7 +15,7 @@ class FirstScreen extends StatelessWidget {
               style: TextStyle(
             fontWeight: FontWeight.bold,
                 fontSize: 16,
-        ),
+         ),
         ),
       ),
       body:
@@ -25,6 +25,7 @@ class FirstScreen extends StatelessWidget {
          style: TextStyle(
            fontSize: 15,
            fontWeight: FontWeight.bold,
+           color: Colors.blueAccent
          ),
       ),
       ),

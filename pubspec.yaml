@@ -40,7 +40,6 @@ dev_dependencies:
     sdk: flutter
   flutter_native_splash: ^2.3.11
 
-
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -56,7 +55,6 @@ flutter:
   assets:
     - assets/splash/bgImage.png
     - assets/splash/image.png
-
 
   uses-material-design: true
 
