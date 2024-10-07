@@ -11,7 +11,7 @@ class FirstScreen extends StatelessWidget {
         title:
         const Text(
           'New Page',
-              semanticsLabel: 'new page edited 2',
+              semanticsLabel: 'new',
               style: TextStyle(
             fontWeight: FontWeight.bold,
                 fontSize: 16,
@@ -27,7 +27,7 @@ class FirstScreen extends StatelessWidget {
            fontWeight: FontWeight.bold,
            color: Colors.blueAccent
          ),
-      ),
+       ),
       ),
     );
   }

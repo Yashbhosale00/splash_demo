@@ -53,7 +53,7 @@ class _Splash2State extends State<Splash2> {
             const SizedBox(height: 20),
             const Text(
               'Dchronicles International Private Limited PVT.LTD',
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orangeAccent),
             ),
             const SizedBox(height: 20),
             // Displaying the loading indicator
@@ -67,7 +67,7 @@ class _Splash2State extends State<Splash2> {
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
-                color: Colors.blueAccent
+                color: Colors.blueAccent,
               ),
             ),
             ElevatedButton(
@@ -79,7 +79,12 @@ class _Splash2State extends State<Splash2> {
                   );
                 },
                 child: const Text(
-                  'SUBMIT'
+                  'SUBMIT',
+                   style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
+                    color: Colors.orangeAccent
+                  ),
                 ),
             ),
           ],
