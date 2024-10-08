@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Splash Screen of our application using details of the movie of the colling the main the demo od ours skill you dont know out'
+      title: 'Splash Screen of our the movie of the colling the main the demo od ours skill you dont know out'
           'path ',
       theme: ThemeData(
         primarySwatch: Colors.green,
