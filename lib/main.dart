@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Splash Screen of our the movie of the colling the main the demo od ours skill you dont know out'
+      title: 'skill you dont know out'
           'path ',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.orange,
       ),
       home: const Splash2(),
       debugShowCheckedModeBanner: false,
@@ -42,10 +42,10 @@ class _Splash2State extends State<Splash2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.greenAccent,
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Image.network(
               'https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg',
@@ -82,7 +82,7 @@ class _Splash2State extends State<Splash2> {
                 child: const Text(
                   'SUBMIT',
                    style: TextStyle(
-                    fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.w300,
                     fontSize: 16,
                     color: Colors.orangeAccent
                   ),
