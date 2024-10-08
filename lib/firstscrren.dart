@@ -10,7 +10,7 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title:
         const Text(
-          'New Page',
+          'New Page lokking awasome ',
               semanticsLabel: 'new',
               style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -21,11 +21,11 @@ class FirstScreen extends StatelessWidget {
       body:
       const Center(
        child: Text(
-        'Bhosale',
+        'Bhosale yash pravin',
          style: TextStyle(
-           fontSize: 15,
+           fontSize: 20,
            fontWeight: FontWeight.bold,
-           color: Colors.blueAccent
+           color: Colors.yellowAccent
          ),
        ),
       ),
