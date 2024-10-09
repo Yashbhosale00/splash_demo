@@ -10,7 +10,7 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title:
         const Text(
-          'New Page is the first page of our activity you dont be intialized ',
+          'New Page activity you dont be i[]ed ',
               semanticsLabel: 'new',
               style: TextStyle(
             fontWeight: FontWeight.bold,
