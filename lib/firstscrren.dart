@@ -21,7 +21,7 @@ class FirstScreen extends StatelessWidget {
       body:
       const Center(
        child: Text(
-        'Bhosale pravin',
+        'Bhosale yash pravin at post shivajinagar tal - khandala , dist - satara ',
          style: TextStyle(
            fontSize: 20,
            fontWeight: FontWeight.bold,
