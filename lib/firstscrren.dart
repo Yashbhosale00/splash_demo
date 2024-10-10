@@ -21,11 +21,11 @@ class FirstScreen extends StatelessWidget {
       body:
       const Center(
        child: Text(
-        'Bhosale yash pravin at post shivajinagar tal - khandala , dist - satara ',
+        'Bhosale yash pravin at post tal - khandala , dist - satara ',
          style: TextStyle(
            fontSize: 20,
            fontWeight: FontWeight.bold,
-           color: Colors.yellowAccent
+           color: Colors.blueAccent
          ),
        ),
       ),
