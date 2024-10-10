@@ -10,7 +10,7 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title:
         const Text(
-          'New Page activity you dont be i[]ed ',
+          'New Page activity in our android and flutter developer application ',
               semanticsLabel: 'new',
               style: TextStyle(
             fontWeight: FontWeight.bold,
