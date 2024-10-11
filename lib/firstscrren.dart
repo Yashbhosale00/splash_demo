@@ -10,7 +10,7 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title:
         const Text(
-          'New Page activity in our android and flutter developer application ',
+          'this is my flutter new page like a impresive img',
               semanticsLabel: 'new',
               style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -21,7 +21,7 @@ class FirstScreen extends StatelessWidget {
       body:
       const Center(
        child: Text(
-        'Bhosale yash pravin at post tal - khandala , dist - satara ',
+        'Bhosale yash pravin',
          style: TextStyle(
            fontSize: 20,
            fontWeight: FontWeight.bold,
