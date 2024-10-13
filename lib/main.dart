@@ -53,7 +53,7 @@ class _Splash2State extends State<Splash2> {
             ),
             const SizedBox(height: 20),
             const Text(
-              'Dchronicles International Private Limited PVT.LTD',
+              'Dchronicles   Private Limited PVT.LTD',
               style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orangeAccent),
             ),
             const SizedBox(height: 20),

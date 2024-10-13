@@ -10,7 +10,7 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title:
         const Text(
-          'this is my flutter new page like a impresive img',
+          'is my  new img',
               semanticsLabel: 'new',
               style: TextStyle(
             fontWeight: FontWeight.bold,
